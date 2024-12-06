@@ -1,0 +1,213 @@
+.setup_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .setup_first {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 54.86px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    text-decoration-skip-ink: none;
+    margin-bottom: 8px;
+  }
+  .my_minimalistik {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 42.67px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    text-decoration-skip-ink: none;
+    margin-bottom: 128px;
+    color: #faff00;
+  }
+  .setip_img {
+    max-width: 795px;
+    max-height: 428px;
+    // margin: 0 auto;
+    margin-bottom: 80px;
+  }
+  .setup_title {
+    display: flex;
+    flex-direction: column;
+    gap: 81px;
+    justify-content: space-between;
+    margin-left: 80px;
+
+    // padding: 176px 210px;
+    // padding-left: 210px;
+    // padding-right: 210px;
+
+    .ulist_container_setup {
+      display: flex;
+      align-items: center;
+      gap: 150px;
+    }
+    .ulist_box_first {
+      .setup_p_white {
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 36.57px;
+        letter-spacing: 0.03em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+      }
+      ul {
+        color: #faff00;
+        li {
+          font-size: 25px;
+          font-weight: 400;
+          line-height: 30.48px;
+          letter-spacing: 0.03em;
+          text-align: left;
+          text-decoration-skip-ink: none;
+          width: 332px;
+        }
+      }
+    }
+  }
+}
+
+////////////////////////////////////////////
+.about_me_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 52px;
+  .abuot_img {
+    width: 635px;
+    height: 618px;
+  }
+  .about_title {
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+    width: 30%;
+    .about_first_p {
+      font-family: Montserrat;
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 36.57px;
+      letter-spacing: 0.03em;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+    }
+    .about_second_p {
+      font-family: Montserrat;
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 36.57px;
+      letter-spacing: 0.03em;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+    }
+    .about_third_p {
+      font-family: Montserrat;
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 36.57px;
+      letter-spacing: 0.03em;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+    }
+  }
+}
+////////////////////////////////////////////////
+///
+.portfolio_container {
+  display: flex;
+  gap: 52px;
+  .portfolio_img_box {
+    margin-bottom: 148px;
+    img {
+      width: 607px;
+      height: 350px;
+    }
+  }
+}
+.portfolio_main {
+  * {
+    margin: 0 !important;
+  }
+  .portfolio_main_box {
+    .hi_im_user_h1 {
+      font-size: 35px;
+      font-weight: 700;
+      line-height: 42.67px;
+      letter-spacing: 0.03em;
+      text-align: left;
+      text-decoration-skip-ink: none;
+    }
+    .main_lorem_p {
+      margin-top: 29px !important;
+      margin-bottom: 29px !important;
+    }
+  }
+  .portfilio_buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    &:hover {
+      img {
+        color: black;
+      }
+    }
+    img {
+      width: 27px;
+      height: 27px;
+    }
+  }
+}
+////////////////////////testimonials///////////////////////
+////* Testimonial container styling */
+#testimonials-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.testimonial {
+  display: flex;
+  gap: 15px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.testimonial-image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.testimonial-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.testimonial-content h3 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.testimonial-content .role {
+  font-size: 0.9em;
+  color: #777;
+}
+
+.testimonial-content .message {
+  font-size: 1em;
+  font-style: italic;
+  color: #444;
+}

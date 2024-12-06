@@ -1,0 +1,73 @@
+{
+  "home": {
+    "title": "Hi i'm Jaxangir",
+    "subtitle": "Crafting web solutions with passion and precision",
+    "heroImage": "https://avatars.mds.yandex.net/i?id=228c49199a3b7211991a98a4acd4687841ba06c8-8498375-images-thumbs&n=13",
+    "description": "Hobbiyingiz",
+    "ctaButton": {
+      "text": "View My Work",
+      "link": "/portfolio"
+    }
+  },
+  "portfolio": [
+    {
+      "id": "2",
+      "title": "Portfolio Website",
+      "description": "A personal portfolio website built to showcase projects and skills.",
+      "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap"],
+      "image": "https://avatars.mds.yandex.net/i?id=fd15f49b3cd939729452da8daad4559672dd19ca-12641163-images-thumbs&n=13",
+      "link": "https://example.com/portfolio"
+    },
+    {
+      "id": "3",
+      "title": "Mobile App",
+      "description": "A cross-platform mobile app for task management with push notifications.",
+      "technologies": ["Flutter", "Firebase"],
+      "image": "https://avatars.mds.yandex.net/i?id=b0ed980f151621395bef0290274a15662cbb76e0-10124799-images-thumbs&n=13",
+      "link": "https://example.com/mobile-app"
+    }
+  ],
+  "setup": {
+    "theme": "New Theme",
+    "language": "Uzbek",
+    "primaryColor": "#ff5733",
+    "contactEmail": "newemail@example.com",
+    "socialLinks": {
+      "twitter": "https://twitter.com/newuser"
+    }
+  },
+  "aboutme": {
+    "bio": "New bio",
+    "name": "New name",
+    "duration": "New duration"
+  },
+  "testimonials": [
+    {
+      "name": "DAFSD",
+      "role": "SDAFSVBDGFSDRSD",
+      "message": "SDAFSVSDGFD",
+      "id": "1",
+      "image": "https://avatars.mds.yandex.net/i?id=520d1ceb78ae63f829b2bff356d9623e8d4ae0f4-8306751-images-thumbs&n=13"
+    },
+    {
+      "name": "DAFSD",
+      "role": "SDAFSVBDGFSDRSD",
+      "message": "SDAFSVSDGFD",
+      "image": "https://avatars.mds.yandex.net/i?id=49919b4229fb95ec0cf55159d2c3de05-5387132-images-thumbs&n=13",
+      "id": "2"
+    },
+    {
+      "name": "DAFSD",
+      "role": "SDAFSVBDGFSDRSD",
+      "message": "SDAFSVSDGFD",
+      "image": "https://avatars.mds.yandex.net/i?id=80b0d3d1347f8e48a226d8ced114ae8682606a5e-4471742-images-thumbs&n=13",
+      "id": "3"
+    }
+  ],
+  "contact": {
+    "email": "your-email@example.com",
+    "phone": "+123-456-7890",
+    "address": "123 Developer Lane, Tech City, TX, 12345",
+    "mapLink": "https://maps.google.com"
+  }
+}
